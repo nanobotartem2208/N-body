@@ -1,0 +1,21 @@
+[project]
+name = "space"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "jack"}
+]
+requires-python = ">=3.15"
+dependencies = [
+    "sqlalchemy (>=2.1.5,<3.0.0)",
+    "asyncsqlite (>=1.0.4,<2.0.0)",
+    "requests (>=2.34.2,<3.0.0)",
+    "numpy (>=2.5.4,<3.0.0)",
+    "matplotlib (>=3.11.2,<4.0.0)"
+]
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
